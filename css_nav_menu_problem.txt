@@ -1,0 +1,40 @@
+Build a Responsive One-Page Website with Sticky Navigation, Smooth Scrolling & Hamburger Menu
+
+Objective
+Create a single-page responsive website for a fictional business (e.g., a design agency, personal portfolio, or fitness studio) that includes a sticky navigation bar with smooth scrolling and a hamburger menu for mobile devices. The site should provide seamless user experience across desktop and mobile devices.
+
+Requirements
+1. Page Structure
+      •	Use HTML5 semantic tags (<header>, <nav>, <main>, <section>, <footer>, etc.).
+      •	Include 5 sections with unique IDs:
+	#home, #about, #services, #portfolio, #contact
+2. Sticky Navigation Bar
+      •	The navigation bar must:
+      •	Stay at the top of the viewport when scrolling (position: sticky or fixed).
+      •	Have a semi-transparent or solid background with a subtle shadow.
+      •	Contain a logo/brand name and navigation links to each section.
+      •	Be visually distinct (e.g., contrasting color, rounded corners, padding).
+3. Smooth Scrolling
+      •	When a user clicks a navigation link, the page should scroll smoothly to the corresponding section.
+4. Hamburger Menu (Mobile-First Design)
+      •	On screens smaller than 768px:
+      •	The navigation links should collapse into a hamburger menu (☰).
+      •	The hamburger icon should be on the right side of the navbar.
+      •	Clicking the icon should:
+      •	Toggle the visibility of the navigation links (CSS :checked with a hidden checkbox).
+      •	Display the menu as a vertical dropdown with full-width links.
+      •	Include a smooth transition (e.g., fade or slide-in).
+      •	On larger screens, show the full horizontal menu.
+5. Responsive Design
+      •	Use flexbox or CSS Grid for layout.
+      •	Ensure text and navigation are readable and usable on all devices.
+      •	Use media queries to adapt layout for mobile, tablet, and desktop.
+6. Visual Design & Interactivity
+      •	Use a modern font (e.g., from Google Fonts like Poppins, Montserrat, or Open Sans).
+      •	Add hover effects on navigation links (e.g., color change, underline, or background highlight).
+      •	Include a subtle animation when the hamburger menu opens/closes.
+
+Deliverables
+1. HTML file (index.html) – well-structured and semantic.
+2. CSS file (style.css) – modular, commented, and responsive.
+
